@@ -40,6 +40,7 @@
 }
 
 .app-sidebar {
+  margin: 24px;
   width: 200px;
   background-color: white;
 }
@@ -49,6 +50,10 @@
 }
 
 .sequencer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: space-between;
   background-color: white;
   padding: 24px;
   margin: 0;
@@ -57,6 +62,17 @@
 
 .app-footer {
   text-align: center;
+}
+
+.pad-button {
+  margin: 0px 2px;
+  height: 40px;
+  width: 40px;
+}
+
+.pad-row-container {
+  display: flex;
+  flex-direction: column;
 }
 
 @keyframes App-logo-spin {

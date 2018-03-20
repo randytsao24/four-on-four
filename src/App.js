@@ -20,8 +20,9 @@ class App extends Component {
             defaultSelectedKeys={['1']}
           >
             <Menu.Item key="1">Sequencer</Menu.Item>
-            <Menu.Item key="2">Login</Menu.Item>
-            <Menu.Item key="3">Sign Up</Menu.Item>
+            <Menu.Item key="2">About</Menu.Item>
+            <Menu.Item key="3">Login</Menu.Item>
+            <Menu.Item key="4">Sign Up</Menu.Item>
           </Menu>
         </Header>
 
